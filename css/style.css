@@ -13,6 +13,8 @@
  #hero {
      text-align: center;
      background: #000;
+     max-width: 90%;
+     margin: 0 5% 0 5%;
  }
  
  h1 {
@@ -20,14 +22,14 @@
  }
  
  h2 {
-     /* background: darkgrey;
-     color: azure; */
      background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
      background-color: aqua;
  }
  
  #services {
      text-align: center;
+     max-width: 90%;
+     margin: 0 5% 0 5%;
  }
  
  .serv {
@@ -40,6 +42,8 @@
  
  #team {
      text-align: center;
+     max-width: 90%;
+     margin: 0 5% 0 5%;
  }
  
  .mbr {
@@ -52,6 +56,8 @@
  
  #folio {
      text-align: center;
+     max-width: 90%;
+     margin: 0 5% 0 5%;
  }
  
  #folio div {
@@ -64,6 +70,8 @@
  
  #contact {
      text-align: center;
+     max-width: 90%;
+     margin: 0 5% 0 5%;
  }
  
  #contact div {
@@ -78,4 +86,13 @@
      text-align: center;
      background: #000;
      color: aliceblue;
+     max-width: 90%;
+     margin: 0 5% 0 5%;
+ }
+ 
+ footer ul li {
+     display: inline-table;
+     vertical-align: top;
+     width: 30%;
+     text-align: center;
  }
