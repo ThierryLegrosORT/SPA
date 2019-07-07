@@ -1,0 +1,81 @@
+ body {
+     background: #000;
+ }
+ 
+ div {
+     background: azure;
+ }
+ 
+ h3 {
+     text-align: center;
+ }
+ 
+ #hero {
+     text-align: center;
+     background: #000;
+ }
+ 
+ h1 {
+     color: aqua;
+ }
+ 
+ h2 {
+     /* background: darkgrey;
+     color: azure; */
+     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+     background-color: aqua;
+ }
+ 
+ #services {
+     text-align: center;
+ }
+ 
+ .serv {
+     display: table-cell;
+     vertical-align: top;
+     width: 30%;
+     padding: 10px;
+     text-align: justify;
+ }
+ 
+ #team {
+     text-align: center;
+ }
+ 
+ .mbr {
+     display: table-cell;
+     vertical-align: top;
+     width: 30%;
+     padding: 10px;
+     text-align: justify;
+ }
+ 
+ #folio {
+     text-align: center;
+ }
+ 
+ #folio div {
+     display: table-cell;
+     vertical-align: top;
+     width: 48%;
+     padding: 10px;
+     text-align: justify;
+ }
+ 
+ #contact {
+     text-align: center;
+ }
+ 
+ #contact div {
+     display: table-cell;
+     vertical-align: top;
+     width: 48%;
+     padding: 10px;
+     text-align: justify;
+ }
+ 
+ footer {
+     text-align: center;
+     background: #000;
+     color: aliceblue;
+ }
