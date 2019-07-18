@@ -12,14 +12,26 @@
 <body>
     <div id="hero" class="hero">
         <h1>Bienvenue sur mon SPA</h1>
-        <video width="480px"  controls="controls"
-            poster="https://image.shutterstock.com/image-vector/hacker-using-internet-hacked-abstract-260nw-1096975310.jpg"
-            src="./video/Bluenet.mp4" type="video/mp4">
-        </video>
+
+        <div id="nav">
+            <a href="./index.html">Accueil</a>
+            <span class="spanNavBar"></span>
+            <a href="https://www.linkedin.com/in/thierry-legros-7ab3a8b3/" target="_blank">Contact</a>
+            <span class="spanNavBar"></span>
+            <a href="#">My Resume</a>
+        </div>
+
+    </div>
+    <div class="video">
+            <video width="480px" controls="controls"
+                poster="https://image.shutterstock.com/image-vector/hacker-using-internet-hacked-abstract-260nw-1096975310.jpg"
+                src="./video/Bluenet.mp4" type="video/mp4">
+            </video>
+
     </div>
 
     <div id="services" class="service">
-        <h2>Nos services</h2>
+        <h2 class="serviceH">Nos services</h2>
         <div class="serv">
             <h3>Anonymisation</h3>
             </br><img src="./images/anonymous.jpg" alt=""></br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -109,12 +121,15 @@
 
     <div id="contact">
         <h2>Map + Formulaire de contact</h2>
-        <div>
+        <div class="maps">
 
-            </br><img src="./images/here.jpg" alt="" class="responsive" width="600">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.6523264211264!2d0.5758549156814461!3d43.42609027510437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9a0ea2690fe15%3A0xba589cb5cdee3cb9!2s36+Avenue+Elys%C3%A9e+Duffrechou%2C+32140+Masseube!5e0!3m2!1sfr!2sfr!4v1563404858534!5m2!1sfr!2sfr"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
         </div>
+
         <div>
-            <!-- <h3> -->
             <form action="./pages/redir.html" method="GET">
                 <fieldset>
                     <legend>Nous contacter</legend>
@@ -124,16 +139,16 @@
                 </fieldset>
                 <fieldset>
                     <legend>Votre message</legend>
-                    <textarea name="Message" id="message" cols="50" rows="10"
+                    <textarea name="Message" id="message" cols="50" rows="20"
                         placeholder="Entrez votre message ici."></textarea>
                     <button type="submit">Valider</button>
                 </fieldset>
             </form>
-            <!-- </h3> -->
         </div>
     </div>
 
 </body>
+
 </br>
 
 <footer>
